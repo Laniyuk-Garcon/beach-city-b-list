@@ -12,4 +12,4 @@ server.use(express.urlencoded({
 server.use('/', index)
 server.use('/profile', profile)
 
-module.exports = server;
+module.exports = server
