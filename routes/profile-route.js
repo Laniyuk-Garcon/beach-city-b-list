@@ -14,9 +14,29 @@ router.get('/', (req, res) => {
     const template = "home"
 
     res.render(template, viewData)
-    
+
+  })
 })
-//   res.send('Profile page goes here')
+
+router.post('/', (req, res) => {
+  fs.readFile('./data.json', 'utf8', (err, data) => {
+    if (err) console.log(err)
+    const obj = JSON.parse(data)
+
+    obj.user.name = req.body.name
+
+    const json = JSON.stringify(obj, null, 2)
+
+    fs.writeFile('./data.json', json, 'utf8', (err, data) => {
+      if(err) {
+        console.log(err)
+      } else {
+        console.log('Logged in')
+
+        res.redirect('/profile')
+      }
+    })
+  })
 })
 
 router.get('/:id', (req, res) => {
@@ -34,16 +54,14 @@ router.get('/:id', (req, res) => {
     res.render(template, viewData)
 
   })
-
-//   res.send('Character Profile goes here')
 })
 
-router.post('/:id', (req, res) =>{
+router.post('/:id', (req, res) => {
   //if (err) console.log(err)
   res.redirect('/' + req.params.id)
-    //let obj = JSON.parse(data)
-    //let character = obj.characters.find(element => element.id == req.params.id)
-    console.log(req.body.Comment)
+  //let obj = JSON.parse(data)
+  //let character = obj.characters.find(element => element.id == req.params.id)
+  console.log(req.body.Comment)
 })
 
 
