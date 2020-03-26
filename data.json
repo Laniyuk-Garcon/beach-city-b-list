@@ -3,16 +3,16 @@
       "id":"1",
       "name": "Dogcopter",
       "handle": "@DogcopterOffical",
-      "image": "/images/dogcopter",
+      "image": "/images/dogcopter.PNG",
       "bio": "Star of the motion picture 'Dogcopter'.",
       "feed": [{
           "name": "Steven Universe: @Stevanie",
-          "image": "/path/to/image",
+          "image": "/images/steven.PNG",
           "post": "Free for a game of chess later captain D?"
         },
         {
           "name": "Lion: @roar",
-          "image": "/path/to/image",
+          "image": "/images/lion.PNG",
           "post": "Roar roar roar roar roar @Stevanie roar lol"
         }
       ]
@@ -22,16 +22,16 @@
       "id":"2",
       "name": "Mayor Dewey",
       "handle": "@mayorDeweyOffical",
-      "image": "/images/mayorDewey",
+      "image": "/images/mayorDewey.PNG",
       "bio": "Beach City's long standing and committed mayor. Ready to serve and bring the best quality to our beautiful town. 'It's not lying when you're the mayor- it's poltics'",
       "feed": [{
           "name": "Nanefua: @pizzaNanna",
-          "image": "/path/to/image",
+          "image": "/images/nanefua.PNG",
           "post": "The potholes outside our store are getting worse! Stop spending our taxes on badges and floats"
         },
         {
           "name": "Ronaldo Fryman: @theTruthIsOutThere",
-          "image": "/path/to/image",
+          "image": "/images/ronaldoFryman.PNG",
           "post": "Beach City is under the mind control of aliens gems and @mayorDewey is in on their plan to take over our town!"
         }
       ]
@@ -40,16 +40,16 @@
       "id":"3",
       "name": "waterMelonSteven",
       "handle": "@seedless",
-      "image": "/images/watermelonSteven",
+      "image": "/images/watermelonSteven.PNG",
       "bio": "Fav colour: Green. Fav Music: Beyonce. Fav Food: Feta Cheese.",
       "feed": [{
           "name": "Steven Universe: @stevanie",
-          "image": "/path/to/image",
+          "image": "/images/steven.PNG",
           "post": "hey bro, you around this afternoon? Gonna hit the jetty for some fries if you're keen."
         },
         {
           "name": "Watermelon Steven @seedless",
-          "image": "/images/watermelonSteven",
+          "image": "/images/watermelonSteven.PNG",
           "post": "Crunch crunch, crunch crunch crunch."
         }
       ]
@@ -58,16 +58,16 @@
       "id":"4",
       "name": "Lion",
       "handle": "@roar",
-      "image": "/images/lion",
+      "image": "/images/lion.PNG",
       "bio": "roar roar roar, roar roar roar roar, roar. roar roar roar roar. roar. YOLO. roar.",
       "feed": [{
           "name": "Steven Universe: @stevanie",
-          "image": "/path/to/image",
+          "image": "/images/steven.PNG",
           "post": "Hey Lion, have you seen my shield? Did I leave it in your mane?"
         },
         {
           "name": "Steven Universe: @stevanie",
-          "image": "/path/to/image",
+          "image": "/images/steven.PNG",
           "post": "Hey Lion, Hey Lion, Hey Lion, Hey Lion, Hey Lion"
         }
       ]
@@ -76,16 +76,16 @@
       "id":"5",
       "name": "Barbara Miller",
       "handle": "@sadiesmum",
-      "image": "/images/barbaraMiller",
+      "image": "/images/barbaraMiller.PNG",
       "bio": "I love my daughter, she makes me so proud. I love the post, it gives me purpose.",
       "feed": [{
           "name": "Nanefua: @pizzaNanna",
-          "image": "/path/to/image",
+          "image": "/images/nanefua.PNG",
           "post": "Barb, where is my mail? "
         },
         {
           "name": "watermelonSteven: @seedless",
-          "image": "/path/to/image",
+          "image": "/images/watermelonSteven.PNG",
           "post": "crunch crunch crunch crunch?"
         }
       ]
@@ -94,16 +94,16 @@
       "id":"6",
       "name": "Mrs Priyanka Mehashwarren",
       "handle": "@doctorMehashwarren",
-      "image": "/images/drMahaswaren",
+      "image": "/images/drMahaswaren.PNG",
       "bio": "Doctor , mother, wife. Winners embrace hard work' - unknown",
       "feed": [{
           "name": "doctorMehashwarren",
-          "image": "/path/to/image",
+          "image": "/images/drMaheswarn.PNG",
           "post": "BEAUTIFUL DAY WITH DAUGHTER AND HER FRIEND. FEELING BLESSED (some prayer hand emojis and sun)"
         },
         {
           "name": "Connie: @Conn-even",
-          "image": "/path/to/image",
+          "image": "/images/connie.PNG",
           "post": "Mom you don't have to type everything in caps locks"
         }
       ]
