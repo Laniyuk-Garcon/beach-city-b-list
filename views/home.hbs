@@ -1,0 +1,11 @@
+<header>
+    <h1>Beach City B list</h1>
+</header>
+
+<div class="container">
+  {{#each characters}}
+    <div class="profileList">
+        <a href="/profile/{{id}}"><img src="{{image}}" alt="{{name}}"></a>
+    </div>
+  {{/each}}
+</div>
