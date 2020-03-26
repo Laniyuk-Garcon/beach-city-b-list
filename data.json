@@ -1,0 +1,106 @@
+{
+  "characters": [{
+      "name": "Dogcopter",
+      "handle": "",
+      "image": "/path/to/image",
+      "bio": "",
+      "feed": [{
+          "name": "",
+          "image": "/path/to/image",
+          "post": ""
+        },
+        {
+          "name": "",
+          "image": "/path/to/image",
+          "post": ""
+        }
+      ]
+
+    },
+    {
+      "name": "Mayor Dewey",
+      "handle": "",
+      "image": "/path/to/image",
+      "bio": "",
+      "feed": [{
+          "name": "",
+          "image": "/path/to/image",
+          "post": ""
+        },
+        {
+          "name": "",
+          "image": "/path/to/image",
+          "post": ""
+        }
+      ]
+    },
+    {
+      "name": "Baby Melon",
+      "handle": "",
+      "image": "/path/to/image",
+      "bio": "",
+      "feed": [{
+          "name": "",
+          "image": "/path/to/image",
+          "post": ""
+        },
+        {
+          "name": "",
+          "image": "/path/to/image",
+          "post": ""
+        }
+      ]
+    },
+    {
+      "name": "Lion",
+      "handle": "",
+      "image": "/path/to/image",
+      "bio": "",
+      "feed": [{
+          "name": "",
+          "image": "/path/to/image",
+          "post": ""
+        },
+        {
+          "name": "",
+          "image": "/path/to/image",
+          "post": ""
+        }
+      ]
+    },
+    {
+      "name": "Barbara Miller",
+      "handle": "",
+      "image": "/path/to/image",
+      "bio": "",
+      "feed": [{
+          "name": "",
+          "image": "/path/to/image",
+          "post": ""
+        },
+        {
+          "name": "",
+          "image": "/path/to/image",
+          "post": ""
+        }
+      ]
+    },
+    {
+      "name": "The Maheswarans",
+      "handle": "",
+      "image": "/path/to/image",
+      "bio": "",
+      "feed": [{
+          "name": "",
+          "image": "/path/to/image",
+          "post": ""
+        },
+        {
+          "name": "",
+          "image": "/path/to/image",
+          "post": ""
+        }
+      ]
+    }
+  ]
+}
