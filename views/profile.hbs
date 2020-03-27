@@ -1,4 +1,4 @@
- <header>
+<header>
     <nav>
         <a href="/profile" >Home</a>
     </nav>
@@ -9,13 +9,13 @@
     </div>
 
     <div>
-        <img  src={{image}} alt="profile pic">
+        <img class="profileimg" src={{image}} alt="profile pic">
     </div>
 
- </header>
+</header>
 
 <main>
-
+<div class= "page-content">
     <div id="bio">
         <h2>Bio</h2>
         <p>{{bio}}</p>
@@ -24,11 +24,13 @@
     <div id="feed">
         {{#each feed}}
             <div id="post">
+                <div class="imagecontainer">
                 <img  class="postImage" src={{image}} alt="posters profile pic">
                 <h3>{{name}}</h3>
                 <p>{{post}}</p>
+                </div>
             </div>
         {{/each}}
     </div>
-
+</div>
 </main>
