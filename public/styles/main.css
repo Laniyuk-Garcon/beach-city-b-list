@@ -6,6 +6,7 @@
   --dark: #132d3c;
 }
 
+
 body {
   background-image: url("https://i.imgur.com/dNmMrTr.jpg"); 
   font-family: 'Concert One', cursive;
@@ -41,5 +42,17 @@ body {
  margin: 20px;
  padding-top: 20px;
  padding-left: 20px;
+}
+
+.login-container {
+  background-image: url("https://i.imgur.com/g1uJZWc.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
 
