@@ -1,7 +1,7 @@
 {
   "user": {
-    "name": "Daniel",
-    "image": "/images/star/JPG"
+    "name": "daniel",
+    "image": "/images/star.jpg"
   },
   "characters": [
     {
@@ -58,26 +58,6 @@
           "name": "Watermelon Steven @seedless",
           "image": "/images/watermelonSteven.png",
           "post": "Crunch crunch, crunch crunch crunch."
-        },
-        {
-          "name": "Me",
-          "image": "/images/star/JPG",
-          "post": "hey W/M STeven"
-        },
-        {
-          "name": "Me",
-          "image": "/images/star/JPG",
-          "post": "seeds 4 lyfe"
-        },
-        {
-          "name": "Me",
-          "image": "/images/star/JPG",
-          "post": "I been drinkin"
-        },
-        {
-          "name": "Me",
-          "image": "/images/star/JPG",
-          "post": "WATERMELON"
         }
       ]
     },
