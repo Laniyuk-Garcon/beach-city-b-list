@@ -6,6 +6,44 @@
   --dark: #132d3c;
 }
 
+
+body {
+  background-image: url("https://i.imgur.com/dNmMrTr.jpg"); 
+  font-family: 'Concert One', cursive;
+}
+
+.profileimg {
+  width: 200px;
+  height:auto;
+  border-radius: 50px;
+  background-color:#fddb51 ;
+} 
+
+.page-content {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+
+.imagecontainer {
+ margin: 20px;
+ display: inline-block;
+}
+
+.postImage {
+  width: 200px;
+  height:auto;
+  border-radius: 50px;
+  background-color:#132d3c;
+}
+
+#post {
+ background-color: rgba(19, 45, 60, 0.7);
+ margin: 20px;
+ padding-top: 20px;
+ padding-left: 20px;
+}
+
 .login-container {
   background-image: url("https://i.imgur.com/g1uJZWc.jpg");
   background-size: cover;
@@ -17,3 +55,4 @@
   width: 100vw;
   height: 100vh;
 }
+
