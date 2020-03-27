@@ -3,13 +3,15 @@
         <a href="/profile" >Home</a>
     </nav>
 
-    <div>
+    <div class="profile-header">
+      <div>
         <h1>{{name}}</h1>  
         <h2>{{handle}}</h2>
-    </div>
+      </div>
 
-    <div>
+      <div>
         <img class="profileimg" src={{image}} alt="profile pic">
+      </div>
     </div>
 
 </header>
@@ -24,17 +26,17 @@
     <div id="feed">
         {{#each feed}}
             <div id="post">
-                <div class="imagecontainer">
                 <img  class="postImage" src={{image}} alt="posters profile pic">
-                <h3>{{name}}</h3>
-                <p>{{post}}</p>
+                <div id='text'>
+                  <h2>{{name}}</h2>
+                  <p>{{post}}</p>
                 </div>
             </div>
         {{/each}}
-        <form action = "/profile/{{id}}" method = "post">
-        <label for = "Comment">Write {{name}} a message!</label>
-        <input type = "text" name = "Comment">
-        <input type = "submit" value = "Fuse to feed">
+        <form id="login" action = "/profile/{{id}}" method = "post">
+          <label for = "Comment">Write {{name}} a message!</label>
+          <input type = "text" name = "Comment">
+          <input type = "submit" value = "Fuse to feed">
         </form>
 
     </div>

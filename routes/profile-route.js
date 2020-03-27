@@ -68,7 +68,7 @@ router.post('/:id', (req, res) => {
       image: obj.user.image,
       post: req.body.Comment
     }
-    //res.redirect('/' + req.params.id)
+    
     character.feed.push(postToFeed)
     console.log(character)
     const json = JSON.stringify(obj, null, 2)
@@ -86,4 +86,4 @@ router.post('/:id', (req, res) => {
 })
 
 
-module.exports = routeru
+module.exports = router
